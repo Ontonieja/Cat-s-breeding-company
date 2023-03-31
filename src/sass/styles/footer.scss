@@ -1,0 +1,29 @@
+.footer{
+    background-color: rgb(119, 113, 119);
+    width:100%;
+    color:white;
+    padding:5rem 8rem;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+
+    .fa-brands
+    {
+        height:2rem;
+    }
+     p
+     {
+        text-align:center;
+        font-size:1.6rem;
+        color:rgb(205, 205, 205);
+        margin: 0.2rem 0 1rem 0;
+     }
+    h5{
+        font-size:4.2rem;
+    }
+    i{
+        margin-right:1.2rem;
+        font-size:3.2rem;
+        margin-top:0.8rem;
+    }
+}

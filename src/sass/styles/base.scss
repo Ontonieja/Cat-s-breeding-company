@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: inherit;
 }
+button {
+  transition: 0.8s;
+}
 
 html {
   box-sizing: border-box;
@@ -15,7 +18,13 @@ body {
   height: fit-content;
   overflow-x: hidden;
   font-family: 'Kumbh Sans', sans-serif;
+  background-color: #e3dbdb;
+  color: rgb(33, 33, 38);
 }
 a {
   text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
 }

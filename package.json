@@ -9,6 +9,16 @@
     "compile:sass": "node-sass src/sass/main.scss ./index.css -w"
   },
   "dependencies": {
+    "gsap": "^3.11.5",
     "node-sass": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
   }
 }

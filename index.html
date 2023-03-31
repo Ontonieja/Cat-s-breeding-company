@@ -5,75 +5,120 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/7b0052e382.js" crossorigin="anonymous"></script>
+    <!-- <script>
+      alert('Strona w przebudowie, przepraszamy');
+    </script> -->
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Samo Szczęscie* Pl - Hodowla kotów</title>
   </head>
   <body>
-    <header class="hero">
-      <div class="hero_content">
-        <div class="nav_container">
-          <h3 class="logo">
-            <a href="#"><img src="assets/paw.png" />Samo Szczeście</a>
-          </h3>
-          <nav>
-            <a href="#">Kotki</a>
-            <a href="#">Kocury</a>
-            <a href="#">Kocięta</a>
-            <a href="#">Kontakt</a>
-          </nav>
+    <header class="header">
+      <nav class="navigation">
+        <div class="header_logo">
+          <a href="#"><img src="assets/paw1.png" alt="" /></a>
+          <a href="/index.html">Samo Szczęscie * PL</a>
         </div>
-        <div class="hero_text">
-          <h2 class="hero_text_title">
-            Spraw sobie Szczęście,<br />przygarnij brytyjskiego kotka.
+        <ul>
+          <li><a href="/kocury.html">Kocury</a></li>
+          <li><a href="#">Kotki</a></li>
+          <li><a href="#">Kocięta</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <div class="hero_content">
+          <h2>
+            Spraw sobie szczęście,<br />
+            przygarnij brytyjskiego kotka.
           </h2>
-          <span class="hero_text_description"
-            >Otwórz swój dom dla nowego członka rodziny<br />
-            i pozwól sobie na szczęście</span
-          >
-          <button class="but">Znajdź przyjaciela</button>
-        </div>
-      </div>
-    </header>
-    <main>
-      <section class="cats">
-        <div class="cat_cart">
-          <img src="assets/cat1.png" />
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates molestiae libero,
-            aut recusandae deleniti qui ratione asperiores esse alias aspernatur!
+            Otwórz swój dom dla nowego członka rodziny<br />
+            i pozwól sobie na radość
           </p>
-          <button class="cat_button">Zobacz</button>
-        </div>
-        <div class="cat_cart">
-          <img src="assets/cat2.png" />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates molestiae libero,
-            aut recusandae deleniti qui ratione asperiores esse alias aspernatur!
-          </p>
-          <button class="cat_button">Zobacz</button>
-        </div>
-        <div class="cat_cart">
-          <img src="assets/cat3.png" />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates molestiae libero,
-            aut recusandae deleniti qui ratione asperiores esse alias aspernatur!
-          </p>
-          <button class="cat_button">Zobacz</button>
+          <button class="hero_button"><a href="#">Znajdź przyjaciela</a></button>
         </div>
       </section>
-      <section class="about_us">
-        <h2>O nas</h2>
+    </header>
+    <main class="main_content">
+      <section class="cats">
+        <div class="cats_content">
+          <img src="assets/bourbon.jpg" alt="Kot" />
+          <div class="cats_text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ex nulla quod
+              porro, tempora commodi magnam dolore qui error earum, nihil cum dolores exercitationem
+              voluptatum et cumque, voluptatibus nobis facilis
+            </p>
+            <a href="kocury.html"> <button class="cats_text_button">Zobacz kocury</button></a>
+          </div>
+        </div>
+        <div class="cats_content">
+          <img src="assets/koczka.jpg" alt="Kot" />
+          <div class="cats_text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ex nulla quod
+              porro, tempora commodi magnam dolore qui error earum, nihil cum dolores exercitationem
+              voluptatum et cumque, voluptatibus nobis facilis
+            </p>
+            <a href="#"> <button class="cats_text_button">Zobacz kotki</button></a>
+          </div>
+        </div>
+        <div class="cats_content">
+          <img src="assets/male.jpg" alt="Kot" />
+          <div class="cats_text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ex nulla quod
+              porro, tempora commodi magnam dolore qui error earum, nihil cum dolores exercitationem
+              voluptatum et cumque, voluptatibus nobis facilis
+            </p>
+            <a href="#"> <button class="cats_text_button">Zobacz kocięta</button></a>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <h3 class="main_page_titles">O nas</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, neque eveniet repellat
-          doloremque itaque, odio inventore rem in alias praesentium vitae architecto sit, officia
-          nihil culpa impedit illum amet dolor.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto distinctio, voluptatum
+          sequi animi amet optio quia quisquam ea enim veritatis fugiat magni consectetur provident
+          architecto dolorem ratione! Odit, eaque sapiente. Ducimus, possimus molestias soluta
+          consequuntur ab id ipsa quisquam non laborum distinctio? Provident quis vero adipisci
+          dolores beatae distinctio neque? Esse nesciunt expedita doloribus! Labore maxime suscipit
+          sapiente hic impedit?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+          reprehenderit optio eaque dolore in fuga exercitationem culpa temporibus officia
+          explicabo. Quod illo quas eaque est rerum architecto laborum pariatur impedit?
         </p>
       </section>
+      <section id="gallery">
+        <h4 class="main_page_titles">Galeria</h4>
+        <img src="assets/gallery.png" alt="" />
+      </section>
     </main>
+    <footer class="footer">
+      <div class="footer_section" target="_blank">
+        <h5>Samo Szczęście * PL</h5>
+        <p>Hodowla kotów brytyjskich</p>
+        <a href="https://www.facebook.com/SamoSzczesciePL"
+          ><i class="fa-brands fa-facebook fa-beat"></i
+        ></a>
+        <a target="_blank" href="https://www.facebook.com/SamoSzczesciePL"
+          ><i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
